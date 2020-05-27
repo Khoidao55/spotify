@@ -9,12 +9,12 @@ const NavBar = ({ currentUser }) => {
   return (
     <nav>
       <div className="row">
-        <Link to="/">
+        <Link to="/spotify">
           <img src={SpotifyLogo} alt="Homepage navigation" className="logo" />
         </Link>
         <ul className="main-nav">
           <li>
-            <Link to="/">
+            <Link to="/spotify">
               <a href="#home">Home</a>
             </Link>
           </li>

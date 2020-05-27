@@ -36,7 +36,7 @@ class App extends Component {
       <div>
         <NavBar currentUser={this.state.currentUser} />
         <Switch>
-          <Route exact path="/" component={Homepage} />
+          <Route exact path="/spotify" component={Homepage} />
           <Route exact path="/about" component={About} />
           <Route exact path="/signin" component={SignInandSignUp} />
           <Route exact path="/explore" component={ExploreSection} />
